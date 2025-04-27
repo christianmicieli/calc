@@ -6,6 +6,7 @@ function sum (  a, b ) {
 function mul (  a, b ) {
 
     return a*b;
+    
 }
 
 function sub (  a, b ) {
@@ -18,5 +19,10 @@ function div (  a, b ) {
     return a/b;
 }
 
+function pow ( a,b) {
 
-module.exports = { sum,sub,mul,div }
+    return a ** b;
+}
+
+
+module.exports = { sum,sub,mul,div,pow }

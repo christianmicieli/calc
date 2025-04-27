@@ -2,6 +2,7 @@ const sum = require ('./math').sum
 const sub = require ('./math').sub
 const div = require ('./math').div
 const mul = require ('./math').mul
+const pow = require ('./math').pow
 
 
 test ( 'add 1+2 equals 3', () => {
@@ -43,5 +44,19 @@ test ( 'div 27/3 equals 9', () => {
 test ( 'div 27/(-3) equals -9', () => {
 
     expect( div(27,-3) ).toBe(-9);
+
+} );
+
+
+test ( 'pow 2^3 equals 8', () => {
+
+    expect( pow(2,3 ) ).toBe(8);
+
+} );
+
+
+test ( 'pow 2^0 equals 1', () => {
+
+    expect( pow(2,0 ) ).toBe(1);
 
 } );
