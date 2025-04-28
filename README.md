@@ -1,5 +1,3 @@
-![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
-
 
 ## CALCOLATRICE IN NODE.JS
 
