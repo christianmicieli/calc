@@ -1,3 +1,6 @@
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+
+
 ## CALCOLATRICE IN NODE.JS
 
 Una semplice calcolatrice per operazioni elementari a due membri, sviluppata in NodeJs, eseguendo anche dei semplici test sul corretto funzionamento 
