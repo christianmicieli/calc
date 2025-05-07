@@ -1,8 +1,8 @@
-const sum = require ('./math').sum
-const sub = require ('./math').sub
-const div = require ('./math').div
-const mul = require ('./math').mul
-const pow = require ('./math').pow
+const sum = require ('../src/math').sum
+const sub = require ('../src/math').sub
+const div = require ('../src/math').div
+const mul = require ('../src/math').mul
+const pow = require ('../src/math').pow
 
 
 test ( 'add 1+2 equals 3', () => {
