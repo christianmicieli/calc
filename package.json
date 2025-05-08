@@ -1,1 +1,22 @@
-{"scripts":{"test":"jest"},"devDependencies":{"jest":"^29.7.0"}}
+{
+    "name": "calc",
+    "version": "1.0.0",
+    "description": "Calcolatrice capace di eseguire somme, sottrazioni, moltiplicazioni, divisioni e potenze con numeri reali interi",
+    "main": "calc.js",
+    "scripts": {
+      "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "Christian Micieli <Micieli843@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.7.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/christianmicieli/calc.git"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
