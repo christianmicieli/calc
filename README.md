@@ -14,7 +14,6 @@ npm (generalmente incluso con Node.js)
 
 Segui questi passaggi per configurare il progetto:
 
-sh
 
 git clone https://github.com/nome-utente/nome-repository.git
 
@@ -26,13 +25,9 @@ npm install
 
 Per eseguire la calcolatrice nel terminale:
 
-sh
-
 npm start
 
 Oppure manualmente:
-
-sh
 
 node calc.js
 
@@ -42,8 +37,8 @@ L'applicazione funziona via riga di comando. Puoi inserire i due numeri e l'oper
 
 Sono inclusi test per verificare il corretto funzionamento. Per eseguire i test:
 
-sh 
 npm test  
+
 Il framework utilizzato è Jest, con obiettivi di code coverage.
 
 ## Integrazione Continua (CI)  
