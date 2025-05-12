@@ -1,37 +1,50 @@
-CALCOLATRICE IN NODE.JS
+# CALCOLATRICE IN NODE.JS
+
 Una semplice calcolatrice per operazioni elementari a due membri, sviluppata in Node.js.. Include test per verificare il corretto funzionamento.
 
-Prerequisiti
+## Prerequisiti
+
 Prima di iniziare, assicurati di avere installato:
 
 Node.js (versione 18 o superiore)
 
 npm (generalmente incluso con Node.js)
 
-Installazione
+## Installazione
+
 Segui questi passaggi per configurare il progetto:
 
 sh
+
 git clone https://github.com/nome-utente/nome-repository.git
+
 cd nome-repository
+
 npm install
-Utilizzo
+
+## Utilizzo
+
 Per eseguire la calcolatrice nel terminale:
 
 sh
+
 npm start
+
 Oppure manualmente:
 
 sh
+
 node calc.js
+
 L'applicazione funziona via riga di comando. Puoi inserire i due numeri e l'operazione desiderata per ottenere il risultato.
 
-Test
+## Test
+
 Sono inclusi test per verificare il corretto funzionamento. Per eseguire i test:
 
-sh
-npm test
+sh 
+npm test  
 Il framework utilizzato è Jest, con obiettivi di code coverage.
 
-Integrazione Continua (CI)
+## Integrazione Continua (CI)  
 Il progetto utilizza GitHub Actions per test automatici a ogni commit. Verifica che il file .github/workflows/test.yml sia presente e correttamente configurato.
